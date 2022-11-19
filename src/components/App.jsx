@@ -41,8 +41,8 @@ const objStyle ={
     <div  style={objStyle} className="App">
       <section className='box' style={objStyle}>
       
-      <Quotebox quote ={quote} color={color} />
-      <Buttons Randie={Randie} color={color}/>
+      <Quotebox quote ={quote} color={color} Randie={Randie}/>
+      
       </section>
     </div>
   )
